@@ -20,7 +20,7 @@ class RAGPipeline:
     def __init__(
         self,
         embedding_model_type: str = "openai",
-        llm_model_name: str = "gpt-3.5-turbo",
+        llm_model_name: str = "gpt-4o-mini",
         chunk_size: int = 1000,
         chunk_overlap: int = 200,
         collection_name: str = "document_collection",
